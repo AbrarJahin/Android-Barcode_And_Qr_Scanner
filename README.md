@@ -1,5 +1,4 @@
-# Android-Barcode_And_Qr_Scanner (Scanning via Intent
-Android Barcode And Qr Scanner
+# Android Barcode And QR Code Scanner (Scanning via Intent)
 
 Easiest way of creating a Barcode And Qr Scanner in android using Android Studio.
 Using the app- https://github.com/zxing/zxing .
