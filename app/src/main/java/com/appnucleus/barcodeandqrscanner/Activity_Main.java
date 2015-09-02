@@ -48,7 +48,9 @@ public class Activity_Main extends Activity
             Intent intent = new Intent(ACTION_SCAN);
             intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
             startActivityForResult(intent, 0);
-        } catch (ActivityNotFoundException anfe) {
+        }
+        catch (ActivityNotFoundException anfe)
+        {
             //on catch, show the download dialog
             showDialog(Activity_Main.this, "No Scanner Found", "Download a scanner code activity?", "Yes", "No").show();
         }
